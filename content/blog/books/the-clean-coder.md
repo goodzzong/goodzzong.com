@@ -1,5 +1,5 @@
 ---
-title: [서평] The Clean Coder
+title: 서평 - The Clean Coder
 date: 2019-11-28 14:11:59
 category: books
 ---
