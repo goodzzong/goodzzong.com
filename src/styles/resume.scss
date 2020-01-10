@@ -1,0 +1,36 @@
+.title-with-date {
+  margin: 15px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  @include mq(tabletp) {
+    width: auto;
+  }
+
+  @include mq(tabletl) {
+    max-width: 75%;
+  }
+
+  @include mq(laptop) {
+    max-width: 70%;
+  }
+
+  @include mq(desktop) {
+    max-width: 65%;
+  }
+
+  h4, h5 {
+    text-align: right;
+    max-width: initial!important;
+    margin: 0!important;
+
+    &:first-child {
+      text-align: left;
+    }
+
+    &:last-child {
+      text-align: right;
+    }
+  }
+}
